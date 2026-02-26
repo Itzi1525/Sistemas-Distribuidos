@@ -7,7 +7,7 @@
 #pragma comment(lib, "ws2_32.lib") // Librería de Winsock
 
 #define PORT 5000
-#define SERVER_IP "192.168.87.5"
+#define SERVER_IP "192.168.87.87"
 
 int main() {
     WSADATA wsa;
@@ -62,4 +62,3 @@ int main() {
     WSACleanup();
     return 0;
 }
-

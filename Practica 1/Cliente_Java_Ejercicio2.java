@@ -4,9 +4,9 @@ import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
-public class Cliente_Java_Ejercicio_2  {
+public class Cliente_Java {
     public static void main(String[] args) {
-        String host = "192.168.87.5"; // localhost
+        String host = "127.0.0.1"; // localhost
         int puerto = 6000;
 
         try (Socket socket = new Socket(host, puerto);
